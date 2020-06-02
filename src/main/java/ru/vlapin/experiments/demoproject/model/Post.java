@@ -1,4 +1,4 @@
-package ru.vlapin.experiments.reacttraining.model;
+package ru.vlapin.experiments.demoproject.model;
 
 import lombok.Data;
 

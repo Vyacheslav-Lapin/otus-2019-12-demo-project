@@ -1,10 +1,10 @@
-package ru.vlapin.experiments.reacttraining.services;
+package ru.vlapin.experiments.demoproject.service;
 
 import java.util.List;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
-import ru.vlapin.experiments.reacttraining.model.Post;
+import ru.vlapin.experiments.demoproject.model.Post;
 
 @FeignClient(
     name = "JSONPlaceHolder",
